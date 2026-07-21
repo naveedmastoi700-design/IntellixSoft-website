@@ -88,33 +88,53 @@ const Navbar = () => {
                 }`}
             >
               <NavLink to="/courses/web-app-development" className={dropdownLinkStyle}>
-                Web App Development
+                Website Development
               </NavLink>
 
-              <NavLink to="/courses/mobile-app-development" className={dropdownLinkStyle}>
-                Mobile App Development
+              <NavLink to="/courses/Backend-Development-with-Python" className={dropdownLinkStyle}>
+                Backend Web Development With Python
               </NavLink>
 
               <NavLink to="/courses/python-machine-learning" className={dropdownLinkStyle}>
                 Python & Machine Learning
+              </NavLink>
+              <NavLink
+                to="/courses/Data-Automation"
+                className={dropdownLinkStyle}
+              >
+                Data Science & Automation
+              </NavLink>
+
+
+              <NavLink to="/courses/digital-marketing" className={dropdownLinkStyle}>
+                Digital Marketing
+              </NavLink>
+              <NavLink
+                to="/courses/shopify"
+                className={dropdownLinkStyle}
+              >
+                E-Commerce & Shopify
               </NavLink>
 
               <NavLink to="/courses/graphic-designer" className={dropdownLinkStyle}>
                 Graphic Designer
               </NavLink>
 
-              <NavLink to="/courses/digital-marketing" className={dropdownLinkStyle}>
-                Digital Marketing
-              </NavLink>
 
               <NavLink to="/courses/business-development" className={dropdownLinkStyle}>
                 Business Development
               </NavLink>
-              <NavLink to="/courses/Backend-Development-with-Python" className={dropdownLinkStyle}>
-                Backend Development with Python
+
+              <NavLink to="/courses/Youtube" className={dropdownLinkStyle}>
+                YouTube Content Automation
               </NavLink>
-              <NavLink to="/courses/Data-Science-and-Automation-with-Python" className={dropdownLinkStyle}>
-                Data Science and Automation with Python
+
+              <NavLink to="/courses/SEO" className={dropdownLinkStyle}>
+                (SEO) Search Engine Optimization
+              </NavLink>
+
+              <NavLink to="/courses/Computer" className={dropdownLinkStyle}>
+                Computer Applications
               </NavLink>
             </div>
           </div>
