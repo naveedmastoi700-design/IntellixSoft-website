@@ -37,18 +37,18 @@ const platformCards = [
 
 const serviceCards = [
   {
-    title: "Web App Development",
+    title: "Website  Development",
     border: "border-blue-100",
     circle: "bg-blue-100",
     shadow: "hover:shadow-[0px_25px_45px_rgba(59,130,246,0.25)]",
     desc: "Powerful development is more than coding — it’s about performance, security, and seamless flow. Our skilled developers turn ideas into fast, responsive, and scalable websites. Using modern frameworks and structured architecture, we create solutions that blend function with elegant design. Every line of code is optimized to improve speed, stability, and user experience.",
   },
   {
-    title: "App Development",
+    title: "Backend Web Development With Python",
     border: "border-emerald-100",
     circle: "bg-emerald-100",
     shadow: "hover:shadow-[0px_25px_45px_rgba(16,185,129,0.25)]",
-    desc: "Smart development is more than features — it’s about performance, security, and smooth interaction. Our expert developers transform concepts into fast, responsive, and scalable mobile apps. Using modern frameworks and structured architecture, we build solutions that combine function with elegant design. Every element is refined to enhance speed, stability, and overall user experience.",
+    desc: "Strong backend development is the foundation of every successful digital product. We build secure, scalable, and high-performance server-side solutions using modern technologies and clean architecture. From APIs and databases to authentication and business logic, every component is optimized for speed, reliability, and seamless integration with frontend applications.",
   },
   {
     title: "Python & Machine Learning",
@@ -58,11 +58,11 @@ const serviceCards = [
     desc: "Smart innovation is more than data — it’s about logic, precision, and intelligent outcomes. Our experts use Python to build efficient, scalable, and data-driven solutions. With advanced algorithms and clean code structure, we create models that learn, adapt, and improve over time. Every process is refined to ensure accuracy, speed, and real-world performance.",
   },
   {
-    title: "Graphic Designer",
-    border: "border-orange-100",
-    circle: "bg-orange-100",
-    shadow: "hover:shadow-[0px_25px_45px_rgba(59,130,246,0.25)]",
-    desc: "Creative design is more than visuals — it’s about emotion, clarity, and lasting impact. Our expert designers create visuals that are bold, elegant, and purpose-driven. Using modern tools and structured design systems, we craft graphics that balance creativity with powerful messaging. Every detail is refined to ensure consistency, engagement, and brand recognition — creating visuals that speak louder than words.",
+    title: "Data Science & Automation",
+    border: "border-emerald-100",
+    circle: "bg-emerald-100",
+    shadow: "hover:shadow-[0px_25px_45px_rgba(16,185,129,0.25)]",
+    desc: "Data science and automation empower businesses to make smarter decisions and streamline complex workflows. We build intelligent data-driven solutions, automate repetitive processes, and create predictive models that improve efficiency and accuracy. From data analysis and machine learning to workflow automation, every solution is designed to deliver scalable performance and measurable business value.",
   },
   {
     title: "Digital Marketing",
@@ -72,6 +72,21 @@ const serviceCards = [
     desc: "Smart marketing is more than promotion — it’s about strategy, creativity, and measurable growth. Our skilled marketers design campaigns that are engaging, data-driven, and result-focused. Using modern tools and structured techniques, we connect brands with the right audience across every platform. Every campaign is refined to boost visibility, build trust, and drive meaningful conversions — turning awareness into real success.",
   },
   {
+    title: "E-Commerce & Shopify",
+    border: "border-amber-100",
+    circle: "bg-amber-100",
+    shadow: "hover:shadow-[0px_25px_45px_rgba(245,158,11,0.25)]",
+    desc: "We build modern, high-converting e-commerce stores and custom Shopify solutions designed for growth. From responsive storefronts and secure payment integration to product management and performance optimization, every store is crafted to deliver a seamless shopping experience, increase customer engagement, and maximize online sales.",
+  },
+  {
+    title: "Graphic Designer",
+    border: "border-orange-100",
+    circle: "bg-orange-100",
+    shadow: "hover:shadow-[0px_25px_45px_rgba(59,130,246,0.25)]",
+    desc: "Creative design is more than visuals — it’s about emotion, clarity, and lasting impact. Our expert designers create visuals that are bold, elegant, and purpose-driven. Using modern tools and structured design systems, we craft graphics that balance creativity with powerful messaging. Every detail is refined to ensure consistency, engagement, and brand recognition — creating visuals that speak louder than words.",
+  },
+
+  {
     title: "Business Development",
     border: "border-cyan-100",
     circle: "bg-cyan-100",
@@ -79,18 +94,25 @@ const serviceCards = [
     desc: "Strategic growth is more than numbers — it’s about vision, connection, and long-term value. Our expert team builds strategies that are innovative, goal-driven, and result-oriented. Using modern tools and structured planning, we craft approaches that balance creativity with practical execution. Every step is refined to strengthen relationships, expand opportunities, and drive sustainable success.",
   },
   {
-    title: "Backend Web Development With Python", 
-    border: "border-cyan-100",
-    circle: "bg-cyan-100",
-    shadow: "hover:shadow-[0px_25px_45px_rgba(59,130,246,0.25)]",
-    desc: "This course provides a comprehensive introduction to backend web development using Python. Learn how to build dynamic web applications, manage databases, create RESTful APIs, implement user authentication, and handle server-side logic. Gain practical experience with popular frameworks such as Django and Flask while developing secure, scalable, and efficient web solutions.",
+    title: "YouTube Content Automation",
+    border: "border-red-100",
+    circle: "bg-red-100",
+    shadow: "hover:shadow-[0px_25px_45px_rgba(239,68,68,0.25)]",
+    desc: "We help creators and businesses grow their YouTube presence with end-to-end automation solutions. From content planning and script management to video editing, thumbnail design, SEO optimization, publishing, and performance tracking, every workflow is designed to save time, increase audience engagement, and support long-term channel growth.",
   },
   {
-    title: "Data Science & Automation With Python",
-    border: "border-cyan-100",
-    circle: "bg-cyan-100",
-    shadow: "hover:shadow-[0px_25px_45px_rgba(59,130,246,0.25)]",
-    desc: "This course introduces the fundamentals of data science and automation using Python. Learn how to collect, clean, analyze, and visualize data to extract meaningful insights. Explore automation techniques for repetitive tasks, data processing, and workflow optimization. Gain hands-on experience with popular Python libraries and tools used in real-world data-driven applications.",
+    title: "(SEO) Search Engine Optimization",
+    border: "border-lime-100",
+    circle: "bg-lime-100",
+    shadow: "hover:shadow-[0px_25px_45px_rgba(132,204,22,0.25)]",
+    desc: "Boost your online visibility with strategic Search Engine Optimization (SEO). We optimize websites through technical SEO, keyword research, on-page and off-page optimization, content strategy, and performance improvements to increase search rankings, drive organic traffic, and generate long-term business growth.",
+  },
+  {
+    title: "Computer Applications",
+    border: "border-violet-100",
+    circle: "bg-violet-100",
+    shadow: "hover:shadow-[0px_25px_45px_rgba(139,92,246,0.25)]",
+    desc: "Enhance productivity with professional computer application services. We create well-formatted Word documents, advanced Excel spreadsheets with formulas and charts, engaging PowerPoint presentations, and other Office-based solutions. Every project is designed with accuracy, efficiency, and a polished professional appearance.",
   },
 ];
 

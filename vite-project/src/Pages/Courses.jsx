@@ -28,7 +28,7 @@ const SkillDevelopment = () => {
 
   const courses = [
     {
-      title: "Web App Development",
+      title: "Website Development",
       details: [
         {
           lecture: "Lecture 1: Introduction to Web Development",
@@ -52,31 +52,33 @@ const SkillDevelopment = () => {
         },
       ],
     },
+
     {
-      title: "Mobile App Development",
+      title: "Backend Web Development With Python",
       details: [
         {
-          lecture: "Lecture 1: Introduction to Mobile App Development",
-          desc: "This lecture explains the basics of mobile app development, types of mobile apps, Android and iOS platforms, and how mobile applications solve real-world business problems.",
+          lecture: "Lecture 1: Introduction to Backend Development with Python",
+          desc: "This lecture explains the fundamentals of backend development, server-side programming, how websites communicate with servers, and the role of Python in building powerful web applications.",
         },
         {
-          lecture: "Lecture 2: UI Design for Mobile Apps",
-          desc: "Students learn how to design clean and user-friendly mobile screens. This lecture covers layouts, navigation, buttons, forms, and mobile user experience principles.",
+          lecture: "Lecture 2: Python Programming Fundamentals",
+          desc: "Students learn core Python concepts including variables, data types, functions, object-oriented programming, error handling, and writing clean and efficient backend code.",
         },
         {
-          lecture: "Lecture 3: App Development Fundamentals",
-          desc: "This lecture introduces the core concepts of mobile development including components, screens, state management, user input, and app navigation.",
+          lecture: "Lecture 3: Django & Flask Framework Basics",
+          desc: "This lecture introduces popular Python web frameworks like Django and Flask, covering project structure, routing, views, templates, and building scalable web applications.",
         },
         {
-          lecture: "Lecture 4: API Integration and Data Handling",
-          desc: "Students learn how mobile apps connect with APIs, fetch data, submit forms, and display dynamic content inside the application.",
+          lecture: "Lecture 4: Database Integration & API Development",
+          desc: "Students learn how to connect applications with databases, perform CRUD operations, design REST APIs, handle data securely, and integrate backend services with frontend applications.",
         },
         {
-          lecture: "Lecture 5: Testing and App Deployment",
-          desc: "The final lecture covers app testing, debugging, performance checking, and preparing mobile apps for launch on app stores or client delivery.",
+          lecture: "Lecture 5: Authentication, Security & Deployment",
+          desc: "The final lecture covers user authentication, authorization, security best practices, server deployment, performance optimization, and preparing Python applications for production.",
         },
       ],
     },
+
     {
       title: "Python and Machine Learning",
       details: [
@@ -102,31 +104,34 @@ const SkillDevelopment = () => {
         },
       ],
     },
+
     {
-      title: "Graphic Designing",
+      title: "Data Science & Automation",
       details: [
         {
-          lecture: "Lecture 1: Introduction to Graphic Design",
-          desc: "This lecture provides an overview of the world of graphic design, its importance in modern communication, and how creativity blends with technology. Students learn the basics of visual storytelling, design principles, and the role of a designer in shaping brand identity.",
+          lecture: "Lecture 1: Introduction to Data Science & Automation",
+          desc: "This lecture explains the fundamentals of data science, automation concepts, the importance of data-driven decision making, and how Python is used to analyze data and automate business processes.",
         },
         {
-          lecture: "Lecture 2: Understanding Design Tools",
-          desc: "In this lecture, learners explore popular graphic design tools such as Adobe Photoshop, Illustrator, and Canva. They gain hands-on understanding of how these tools are used to create logos, posters, and digital artwork efficiently and professionally.",
+          lecture: "Lecture 2: Python for Data Analysis",
+          desc: "Students learn Python libraries like NumPy, Pandas, and Matplotlib to clean, process, analyze, and visualize datasets for extracting meaningful insights.",
         },
         {
-          lecture: "Lecture 3: Color, Typography, and Layout",
-          desc: "This lecture dives into the essentials of visual aesthetics. Students study the psychology of color, the art of selecting fonts, and how to structure layouts that capture attention and convey the right message.",
+          lecture: "Lecture 3: Data Visualization & Insights",
+          desc: "This lecture covers creating charts, graphs, and interactive visualizations to understand data patterns, identify trends, and support better business decisions.",
         },
         {
-          lecture: "Lecture 4: Branding and Creative Projects",
-          desc: "Students discover how design connects with branding. This lecture covers creating brand identities, logos, and marketing materials that reflect business values.",
+          lecture: "Lecture 4: Machine Learning & Predictive Analytics",
+          desc: "Students learn the basics of machine learning algorithms, model training, prediction techniques, and how intelligent systems can solve real-world problems.",
         },
         {
-          lecture: "Lecture 5: Portfolio Development and Freelancing Skills",
-          desc: "The final lecture guides learners in building a professional design portfolio and exploring freelancing opportunities. Students learn how to present their work, deal with clients, set pricing, and grow a sustainable design career.",
+          lecture: "Lecture 5: Automation & Workflow Optimization",
+          desc: "The final lecture covers task automation, data processing pipelines, API automation, and building efficient workflows that save time and improve productivity.",
         },
       ],
     },
+
+
     {
       title: "Digital Marketing",
       details: [
@@ -152,6 +157,61 @@ const SkillDevelopment = () => {
         },
       ],
     },
+
+    {
+      title: "E-Commerce & Shopify",
+      details: [
+        {
+          lecture: "Lecture 1: Introduction to E-Commerce & Shopify",
+          desc: "This lecture explains the fundamentals of e-commerce, online business models, Shopify platform basics, and how digital stores help businesses sell products globally.",
+        },
+        {
+          lecture: "Lecture 2: Shopify Store Setup & Customization",
+          desc: "Students learn how to create and configure Shopify stores, customize themes, manage layouts, add products, and build a professional online shopping experience.",
+        },
+        {
+          lecture: "Lecture 3: Product Management & Store Features",
+          desc: "This lecture covers product listings, categories, inventory management, pricing strategies, collections, customer accounts, and essential e-commerce store features.",
+        },
+        {
+          lecture: "Lecture 4: Payment Integration & E-Commerce Optimization",
+          desc: "Students learn about payment gateways, checkout processes, shipping settings, security practices, and techniques to improve store performance and customer experience.",
+        },
+        {
+          lecture: "Lecture 5: SEO, Marketing & Shopify Store Growth",
+          desc: "The final lecture covers Shopify SEO, digital marketing strategies, analytics tracking, conversion optimization, and methods to scale an online store successfully.",
+        },
+      ],
+    },
+
+
+    {
+      title: "Graphic Designing",
+      details: [
+        {
+          lecture: "Lecture 1: Introduction to Graphic Design",
+          desc: "This lecture provides an overview of the world of graphic design, its importance in modern communication, and how creativity blends with technology. Students learn the basics of visual storytelling, design principles, and the role of a designer in shaping brand identity.",
+        },
+        {
+          lecture: "Lecture 2: Understanding Design Tools",
+          desc: "In this lecture, learners explore popular graphic design tools such as Adobe Photoshop, Illustrator, and Canva. They gain hands-on understanding of how these tools are used to create logos, posters, and digital artwork efficiently and professionally.",
+        },
+        {
+          lecture: "Lecture 3: Color, Typography, and Layout",
+          desc: "This lecture dives into the essentials of visual aesthetics. Students study the psychology of color, the art of selecting fonts, and how to structure layouts that capture attention and convey the right message.",
+        },
+        {
+          lecture: "Lecture 4: Branding and Creative Projects",
+          desc: "Students discover how design connects with branding. This lecture covers creating brand identities, logos, and marketing materials that reflect business values.",
+        },
+        {
+          lecture: "Lecture 5: Portfolio Development and Freelancing Skills",
+          desc: "The final lecture guides learners in building a professional design portfolio and exploring freelancing opportunities. Students learn how to present their work, deal with clients, set pricing, and grow a sustainable design career.",
+        },
+      ],
+    },
+
+
     {
       title: "Business Development",
       details: [
@@ -177,53 +237,81 @@ const SkillDevelopment = () => {
         },
       ],
     },
+
     {
-      title: "Backend Web Development with Python",
+      title: "YouTube Content Automation",
       details: [
         {
-          lecture: "Lecture 1: Introduction to Backend Web Development with Python",
-          desc: "This lecture explains the fundamentals of backend development and the role of Python in building server-side applications. Students learn how web applications work, client-server architecture, and how backend systems power modern websites.",
+          lecture: "Lecture 1: Introduction to YouTube Content Automation",
+          desc: "This lecture explains the basics of YouTube automation, channel management, content creation workflows, and how automation helps creators build and scale successful YouTube channels.",
         },
         {
-          lecture: "Lecture 2: Python Basics for Backend Development",
-          desc: "Students learn core Python concepts required for backend development including variables, functions, loops, error handling, and working with libraries to build a strong programming foundation.",
+          lecture: "Lecture 2: Content Research & Video Strategy",
+          desc: "Students learn how to research trending topics, analyze competitors, identify profitable niches, and create effective content strategies to attract and engage audiences.",
         },
         {
-          lecture: "Lecture 3: Working with Databases and APIs",
-          desc: "This lecture focuses on database management using SQL/NoSQL systems and how to connect applications with APIs. Students learn how to store, retrieve, and manage data efficiently.",
+          lecture: "Lecture 3: Script Writing & AI Content Creation",
+          desc: "This lecture covers script writing techniques, storytelling methods, AI-powered content tools, and creating engaging video scripts that improve audience retention.",
         },
         {
-          lecture: "Lecture 4: Web Frameworks (Django & Flask)",
-          desc: "Students explore popular Python frameworks like Django and Flask to build dynamic web applications, handle routing, create models, and develop secure backend systems.",
+          lecture: "Lecture 4: Video Production & YouTube SEO",
+          desc: "Students learn video editing workflows, thumbnail creation, title optimization, keyword research, descriptions, tags, and SEO techniques to increase video visibility.",
         },
         {
-          lecture: "Lecture 5: Authentication, Deployment & Project Development",
-          desc: "The final lecture covers user authentication, security practices, and deploying web applications. Students also build a complete backend project using Python from start to finish.",
+          lecture: "Lecture 5: Channel Growth & Automation Management",
+          desc: "The final lecture covers content scheduling, analytics tracking, audience growth strategies, workflow automation, and techniques to build a scalable YouTube channel.",
+        },
+      ],
+    },
+
+
+    {
+      title: "Search Engine Optimization (SEO)",
+      details: [
+        {
+          lecture: "Lecture 1: Introduction to SEO & Search Engines",
+          desc: "This lecture explains the fundamentals of SEO, how search engines work, ranking factors, and the importance of organic search visibility for websites and online businesses.",
+        },
+        {
+          lecture: "Lecture 2: Keyword Research & SEO Strategy",
+          desc: "Students learn how to find profitable keywords, analyze search intent, study competitors, and create effective SEO strategies to target the right audience.",
+        },
+        {
+          lecture: "Lecture 3: On-Page SEO Optimization",
+          desc: "This lecture covers optimizing website content, meta titles, descriptions, headings, images, URLs, internal links, and other elements to improve search rankings.",
+        },
+        {
+          lecture: "Lecture 4: Technical SEO & Off-Page Optimization",
+          desc: "Students learn technical SEO practices including website speed, mobile optimization, indexing, backlinks, domain authority, and external ranking improvements.",
+        },
+        {
+          lecture: "Lecture 5: SEO Analytics & Growth Optimization",
+          desc: "The final lecture covers SEO tools, traffic analysis, ranking tracking, performance reports, and strategies to achieve long-term organic growth.",
         },
       ],
     },
     {
-      title: "Data Science and Automation with Python",
+      title: "Computer Applications & Office Solutions",
       details: [
         {
-          lecture: "Lecture 1: Introduction to Data Science & Automation with Python",
-          desc: "This lecture explains the basics of data science and automation using Python. Students learn how data is used in modern industries and how automation improves efficiency and reduces manual work.",
+          lecture: "Lecture 1: Introduction to Computer Applications",
+          desc: "This lecture explains the fundamentals of computer applications, office productivity tools, and how software solutions help improve business, educational, and professional workflows.",
         },
         {
-          lecture: "Lecture 2: Python for Data Handling",
-          desc: "Students learn Python fundamentals for data science including working with lists, dictionaries, NumPy, and Pandas to collect, clean, and organize data effectively.",
+          lecture: "Lecture 2: Microsoft Word & Document Management",
+          desc: "Students learn how to create professional documents, format text, design reports, manage tables, insert images, and use advanced MS Word features for effective documentation.",
         },
         {
-          lecture: "Lecture 3: Data Analysis and Visualization",
-          desc: "This lecture focuses on finding potential clients, writing professional messages, handling client communication, and building strong business relationships.",
+          lecture: "Lecture 3: Microsoft Excel & Data Management",
+          desc: "This lecture covers Excel basics, formulas, functions, data organization, charts, tables, and techniques for analyzing and managing information efficiently.",
         },
         {
-          lecture: "Lecture 4: Automation Techniques with Python",
-          desc: "Students learn how to automate repetitive tasks such as file handling, web scraping, data entry, and report generation to save time and improve productivity.",
+          lecture: "Lecture 4: Microsoft PowerPoint & Presentation Design",
+          desc: "Students learn how to create professional presentations using slides, layouts, animations, graphics, and visual design techniques to deliver impactful content.",
         },
         {
-          lecture: "Lecture 5: Real-World Projects and Data Insights",
-          desc: "The final lecture covers practical projects where students apply data science and automation skills to real datasets and generate meaningful business insights.",
+          lecture: "Lecture 5: Office Automation & Productivity Skills",
+          desc: "The final lecture covers advanced Office tools, file management, productivity techniques, digital workflows, and best practices for improving daily computer-based tasks.",
         },
       ],
     },

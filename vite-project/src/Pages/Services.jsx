@@ -3,9 +3,14 @@ import React, { useState } from "react";
 import Service from "../assets/images/Services.png";
 import appImg from "../assets/images/App.png";
 import python from "../assets/images/python.png";
+import dataScience from "../assets/images/DataScience.png";
 import business from "../assets/images/business.png";
 import graphic from "../assets/images/graphic.png";
+import Shopify from "../assets/images/Shopify.png";
+import computer from "../assets/images/computer.png";
+import Youtube from "../assets/images/Youtube.png";
 import web from "../assets/images/web.png";
+import seo from "../assets/images/seo.png";
 import digital from "../assets/images/digital.png";
 import Backend from "../assets/images/Backend.png";
 import Data from "../assets/images/Data.png";
@@ -201,7 +206,7 @@ const ServicesHero = () => {
         <div className="flex flex-col lg:flex-row items-center gap-10 mb-20">
           <div className="w-full lg:w-1/2 flex flex-col gap-4">
             <h3 className="text-2xl sm:text-3xl font-semibold font-[Poppins]">
-              Web App Development
+              Website Development
             </h3>
 
             <p className="text-gray-700 text-sm sm:text-base">
@@ -261,56 +266,46 @@ const ServicesHero = () => {
         </div>
 
         {/* Row 2 */}
-        <div className="flex flex-col lg:flex-row items-center gap-10 mb-20">
+        <div className="flex flex-col lg:flex-row items-center gap-10 mt-16">
           <div className="w-full lg:w-1/2 flex flex-col gap-4">
             <h3 className="text-2xl sm:text-3xl font-semibold font-[Poppins]">
-              Mobile App Development
+              Backend Web Development with Python
             </h3>
 
             <p className="text-gray-700 text-sm sm:text-base">
-              Create powerful, user-focused mobile applications that drive
-              engagement and business growth. Our team develops fast, secure,
-              and scalable apps designed to perform flawlessly across Android
-              and iOS platforms.
+              Build powerful and scalable web applications with Python-based backend technologies. At Intellix Soft, we focus on creating secure, high-performance server-side solutions that ensure seamless functionality, efficient data management, and exceptional user experiences.
             </p>
 
             <p className="text-sm sm:text-base">
               <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
-                Custom App Solutions:
+                Server-Side Application Development:
               </span>{" "}
-              Build mobile apps tailored to your brand goals — from eCommerce to
-              enterprise-level systems — ensuring smooth performance and modern
-              design.
+              Design and develop robust backend systems that handle business logic, user requests, and application workflows with speed and reliability.
             </p>
 
             <p className="text-sm sm:text-base">
               <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
-                Cross-Platform Development:
+                Database Management & Integration:
               </span>{" "}
-              We use advanced frameworks like Flutter and React Native to
-              deliver consistent experiences across all devices with faster
-              development cycles.
+              Create structured databases, optimize queries, and manage data efficiently to ensure secure storage, fast retrieval, and smooth application performance.
             </p>
 
             <p className="text-sm sm:text-base">
               <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
-                Maintenance & Support:
+                API Development & System Connectivity:
               </span>{" "}
-              We provide continuous updates, performance monitoring, and
-              technical support to keep your app secure, efficient, and
-              future-ready.
+              Build and integrate RESTful APIs that enable seamless communication between applications, third-party services, and frontend platforms.
             </p>
 
             <p className="text-sm sm:text-base">
               <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
-                UI/UX Excellence:
+                Authentication & Security Implementation:
               </span>{" "}
-              Our design team focuses on creating intuitive, attractive, and
-              easy-to-navigate interfaces.
+              Protect applications with secure authentication, authorization, encryption, and best security practices to safeguard user data and system integrity.
             </p>
 
             <a
-              href="/MobileAppDevelopment"
+              href="/BackendWebDevelopmentwithPython"
               className="w-fit cursor-pointer py-3 px-6 rounded-md text-black bg-[#eed025] font-[Sora] font-semibold text-sm sm:text-base hover:text-white transition ease-in-out duration-300 hover:bg-[#56A49E]"
             >
               Learn More
@@ -319,9 +314,9 @@ const ServicesHero = () => {
 
           <div className="w-full lg:w-1/2 flex justify-center">
             <img
-              src={appImg}
+              src={Backend}
               className="w-full max-w-lg rounded-lg object-cover shadow-lg"
-              alt="Mobile App Development"
+              alt="Backend Web Development with Python"
             />
           </div>
         </div>
@@ -389,6 +384,200 @@ const ServicesHero = () => {
         </div>
 
         {/* Row 4 */}
+
+
+        <div className="flex flex-col lg:flex-row items-center gap-10 mb-20">
+          <div className="w-full lg:w-1/2 flex flex-col gap-4">
+            <h3 className="text-2xl sm:text-3xl font-semibold font-[Poppins]">
+              Data Science & Automation
+            </h3>
+
+            <p className="text-gray-700 text-sm sm:text-base">
+              Unlock the power of data with intelligent analytics and automation
+              solutions. We help businesses transform raw data into valuable insights,
+              automate repetitive tasks, and build smarter workflows that improve
+              productivity and decision-making.
+            </p>
+
+            <p className="text-sm sm:text-base">
+              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
+                Data Analysis & Visualization:
+              </span>{" "}
+              Convert complex datasets into meaningful reports, dashboards, and
+              interactive visualizations that support informed business decisions.
+            </p>
+
+            <p className="text-sm sm:text-base">
+              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
+                AI & Machine Learning:
+              </span>{" "}
+              Build intelligent models for prediction, classification, and data-driven
+              decision-making using modern machine learning techniques.
+            </p>
+
+            <p className="text-sm sm:text-base">
+              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
+                Workflow Automation:
+              </span>{" "}
+              Automate repetitive business processes, data collection, reporting, and
+              task management to save time and increase operational efficiency.
+            </p>
+
+            <p className="text-sm sm:text-base">
+              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
+                Business Intelligence:
+              </span>{" "}
+              Deliver actionable insights with custom dashboards, KPI tracking, and
+              automated reporting to drive business growth and performance.
+            </p>
+
+            <a
+              href="/DataScienceAutomation"
+              className="w-fit cursor-pointer py-3 px-6 rounded-md text-black bg-[#eed025] font-[Sora] font-semibold text-sm sm:text-base hover:text-white transition ease-in-out duration-300 hover:bg-[#56A49E]"
+            >
+              Learn More
+            </a>
+          </div>
+
+          <div className="w-full lg:w-1/2 flex justify-center">
+            <img
+              src={dataScience}
+              className="w-full max-w-lg rounded-lg object-cover shadow-lg"
+              alt="Data Science & Automation"
+            />
+          </div>
+        </div>
+
+
+
+        {/* Row 5 */}
+
+        <div className="flex flex-col lg:flex-row items-center gap-10 mb-20">
+          <div className="w-full lg:w-1/2 flex flex-col gap-4">
+            <h3 className="text-2xl sm:text-3xl font-semibold font-[Poppins]">
+              Digital Marketing
+            </h3>
+
+            <p className="text-gray-700 text-sm sm:text-base">
+              Drive visibility, engagement, and growth with data-driven digital
+              marketing strategies tailored to your business goals.
+            </p>
+
+            <p className="text-sm sm:text-base">
+              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
+                Social Media Marketing:
+              </span>{" "}
+              Build a strong online presence with creative campaigns that
+              increase brand awareness.
+            </p>
+
+            <p className="text-sm sm:text-base">
+              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
+                Search Engine Optimization:
+              </span>{" "}
+              Improve website ranking, boost organic traffic, and attract
+              potential customers.
+            </p>
+
+            <p className="text-sm sm:text-base">
+              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
+                Pay-Per-Click Advertising:
+              </span>{" "}
+              Maximize ROI with targeted ad campaigns designed to reach the
+              right audience.
+            </p>
+
+            <p className="text-sm sm:text-base">
+              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
+                Content & Email Marketing:
+              </span>{" "}
+              Deliver impactful content and personalized emails that strengthen
+              customer relationships.
+            </p>
+
+            <a
+              href="/DigitalMarketing"
+              className="w-fit cursor-pointer py-3 px-6 rounded-md text-black bg-[#eed025] font-[Sora] font-semibold text-sm sm:text-base hover:text-white transition ease-in-out duration-300 hover:bg-[#56A49E]"
+            >
+              Learn More
+            </a>
+          </div>
+
+          <div className="w-full lg:w-1/2 flex justify-center">
+            <img
+              src={digital}
+              className="w-full max-w-lg rounded-lg object-cover shadow-lg"
+              alt="Digital Marketing"
+            />
+          </div>
+        </div>
+
+
+
+        {/* Row 6 */}
+        <div className="flex flex-col lg:flex-row items-center gap-10 mb-20">
+          <div className="w-full lg:w-1/2 flex flex-col gap-4">
+            <h3 className="text-2xl sm:text-3xl font-semibold font-[Poppins]">
+              E-Commerce & Shopify
+            </h3>
+
+            <p className="text-gray-700 text-sm sm:text-base">
+              Build powerful and scalable online stores that deliver smooth shopping
+              experiences and help businesses grow digitally. We create modern
+              e-commerce solutions with attractive designs, secure features, and
+              optimized performance to increase sales and customer engagement.
+            </p>
+
+            <p className="text-sm sm:text-base">
+              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
+                Shopify Store Development:
+              </span>{" "}
+              Create professional Shopify stores with custom themes, product setups,
+              payment integration, and features tailored to your business needs.
+            </p>
+
+            <p className="text-sm sm:text-base">
+              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
+                Custom E-Commerce Solutions:
+              </span>{" "}
+              Develop responsive online stores with advanced functionality, product
+              management, shopping carts, and seamless checkout experiences.
+            </p>
+
+            <p className="text-sm sm:text-base">
+              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
+                Payment & Store Integration:
+              </span>{" "}
+              Integrate secure payment gateways, third-party tools, APIs, and marketing
+              solutions to improve store performance and customer experience.
+            </p>
+
+            <p className="text-sm sm:text-base">
+              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
+                Store Optimization & Support:
+              </span>{" "}
+              Optimize website speed, mobile responsiveness, SEO, and provide ongoing
+              maintenance to keep your online store successful and future-ready.
+            </p>
+
+            <a
+              href="/EcommerceShopify"
+              className="w-fit cursor-pointer py-3 px-6 rounded-md text-black bg-[#eed025] font-[Sora] font-semibold text-sm sm:text-base hover:text-white transition ease-in-out duration-300 hover:bg-[#56A49E]"
+            >
+              Learn More
+            </a>
+          </div>
+
+          <div className="w-full lg:w-1/2 flex justify-center">
+            <img
+              src={Shopify}
+              className="w-full max-w-lg rounded-lg object-cover shadow-lg"
+              alt="E-Commerce & Shopify"
+            />
+          </div>
+        </div>
+        {/* Row 7 */}
+
         <div className="flex flex-col lg:flex-row items-center gap-10 mb-20">
           <div className="w-full lg:w-1/2 flex flex-col gap-4">
             <h3 className="text-2xl sm:text-3xl font-semibold font-[Poppins]">
@@ -449,66 +638,8 @@ const ServicesHero = () => {
           </div>
         </div>
 
-        {/* Row 5 */}
-        <div className="flex flex-col lg:flex-row items-center gap-10 mb-20">
-          <div className="w-full lg:w-1/2 flex flex-col gap-4">
-            <h3 className="text-2xl sm:text-3xl font-semibold font-[Poppins]">
-              Digital Marketing
-            </h3>
+        {/* Row 6 */}
 
-            <p className="text-gray-700 text-sm sm:text-base">
-              Drive visibility, engagement, and growth with data-driven digital
-              marketing strategies tailored to your business goals.
-            </p>
-
-            <p className="text-sm sm:text-base">
-              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
-                Social Media Marketing:
-              </span>{" "}
-              Build a strong online presence with creative campaigns that
-              increase brand awareness.
-            </p>
-
-            <p className="text-sm sm:text-base">
-              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
-                Search Engine Optimization:
-              </span>{" "}
-              Improve website ranking, boost organic traffic, and attract
-              potential customers.
-            </p>
-
-            <p className="text-sm sm:text-base">
-              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
-                Pay-Per-Click Advertising:
-              </span>{" "}
-              Maximize ROI with targeted ad campaigns designed to reach the
-              right audience.
-            </p>
-
-            <p className="text-sm sm:text-base">
-              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
-                Content & Email Marketing:
-              </span>{" "}
-              Deliver impactful content and personalized emails that strengthen
-              customer relationships.
-            </p>
-
-            <a
-              href="/DigitalMarketing"
-              className="w-fit cursor-pointer py-3 px-6 rounded-md text-black bg-[#eed025] font-[Sora] font-semibold text-sm sm:text-base hover:text-white transition ease-in-out duration-300 hover:bg-[#56A49E]"
-            >
-              Learn More
-            </a>
-          </div>
-
-          <div className="w-full lg:w-1/2 flex justify-center">
-            <img
-              src={digital}
-              className="w-full max-w-lg rounded-lg object-cover shadow-lg"
-              alt="Digital Marketing"
-            />
-          </div>
-        </div>
 
         {/* Row 6 */}
         <div className="flex flex-col lg:flex-row items-center gap-10">
@@ -575,102 +706,58 @@ const ServicesHero = () => {
           </div>
         </div>
         {/* Row 7 */}
-        <div className="flex flex-col lg:flex-row items-center gap-10 mt-16">
-          <div className="w-full lg:w-1/2 flex flex-col gap-4">
-            <h3 className="text-2xl sm:text-3xl font-semibold font-[Poppins]">
-              Backend Web Development with Python
-            </h3>
 
-            <p className="text-gray-700 text-sm sm:text-base">
-              Build powerful and scalable web applications with Python-based backend technologies. At Intellix Soft, we focus on creating secure, high-performance server-side solutions that ensure seamless functionality, efficient data management, and exceptional user experiences.
-            </p>
-
-            <p className="text-sm sm:text-base">
-              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
-                Server-Side Application Development:
-              </span>{" "}
-              Design and develop robust backend systems that handle business logic, user requests, and application workflows with speed and reliability.
-            </p>
-
-            <p className="text-sm sm:text-base">
-              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
-                Database Management & Integration:
-              </span>{" "}
-              Create structured databases, optimize queries, and manage data efficiently to ensure secure storage, fast retrieval, and smooth application performance.
-            </p>
-
-            <p className="text-sm sm:text-base">
-              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
-               API Development & System Connectivity:
-              </span>{" "}
-              Build and integrate RESTful APIs that enable seamless communication between applications, third-party services, and frontend platforms.
-            </p>
-
-            <p className="text-sm sm:text-base">
-              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
-                Authentication & Security Implementation:
-              </span>{" "}
-             Protect applications with secure authentication, authorization, encryption, and best security practices to safeguard user data and system integrity.
-            </p>
-
-            <a
-              href="/BackendWebDevelopmentwithPython"
-              className="w-fit cursor-pointer py-3 px-6 rounded-md text-black bg-[#eed025] font-[Sora] font-semibold text-sm sm:text-base hover:text-white transition ease-in-out duration-300 hover:bg-[#56A49E]"
-            >
-              Learn More
-            </a>
-          </div>
-
-          <div className="w-full lg:w-1/2 flex justify-center">
-            <img
-              src={Backend}
-              className="w-full max-w-lg rounded-lg object-cover shadow-lg"
-              alt="Backend Web Development with Python"
-            />
-          </div>
-        </div>
 
         {/* Row 8 */}
         <div className="flex flex-col lg:flex-row items-center gap-10 mt-16">
           <div className="w-full lg:w-1/2 flex flex-col gap-4">
             <h3 className="text-2xl sm:text-3xl font-semibold font-[Poppins]">
-              Data Science & Automation with Python
+              YouTube Content Automation
             </h3>
 
             <p className="text-gray-700 text-sm sm:text-base">
-              Transform raw data into valuable insights and automate repetitive processes with Python-powered solutions. At Intellix Soft, we leverage data science techniques and intelligent automation to improve decision-making, enhance productivity, and drive business efficiency.
+              Grow your YouTube channel with powerful content automation solutions.
+              At Intellix Soft, we help creators and businesses streamline their
+              content workflow through smart strategies, AI-powered tools, and
+              efficient production processes to increase reach, engagement, and
+              channel growth.
             </p>
 
             <p className="text-sm sm:text-base">
               <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
-                Data Collection & Processing:
+                Content Research & Strategy:
               </span>{" "}
-              Gather, clean, and organize data from multiple sources to ensure accuracy, consistency, and readiness for analysis and reporting.
+              Analyze trending topics, audience interests, and market insights to
+              create engaging video ideas that attract viewers and improve channel
+              performance.
             </p>
 
             <p className="text-sm sm:text-base">
               <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
-                Data Analysis & Visualization:
+                Script Writing & AI Assistance:
               </span>{" "}
-              Explore datasets, identify trends, and create interactive visualizations that help businesses make informed and data-driven decisions.
+              Create engaging scripts with AI-powered tools, storytelling techniques,
+              and optimized content structures that keep audiences connected.
             </p>
 
             <p className="text-sm sm:text-base">
               <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
-                Predictive Analytics & Machine Learning:
+                Video Production & Optimization:
               </span>{" "}
-              Develop intelligent models that uncover patterns, forecast outcomes, and support strategic planning through advanced analytical techniques.
+              Manage video editing, thumbnails, titles, descriptions, and SEO
+              optimization to improve visibility and increase viewer engagement.
             </p>
 
             <p className="text-sm sm:text-base">
               <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
-                Workflow Automation & Task Optimization:
+                Channel Growth & Automation:
               </span>{" "}
-              Automate repetitive tasks, data processing pipelines, and routine operations to save time, reduce errors, and increase operational efficiency.
+              Automate publishing workflows, performance tracking, and content
+              management to build a scalable YouTube channel with consistent growth.
             </p>
 
             <a
-              href="/DataScienceAndAutomationWithPython"
+              href="/YouTubeContentAutomation"
               className="w-fit cursor-pointer py-3 px-6 rounded-md text-black bg-[#eed025] font-[Sora] font-semibold text-sm sm:text-base hover:text-white transition ease-in-out duration-300 hover:bg-[#56A49E]"
             >
               Learn More
@@ -679,12 +766,141 @@ const ServicesHero = () => {
 
           <div className="w-full lg:w-1/2 flex justify-center">
             <img
-              src={Data}
+              src={Youtube}
               className="w-full max-w-lg rounded-lg object-cover shadow-lg"
-              alt="Data Science & Automation with Python"
+              alt="YouTube Content Automation"
             />
           </div>
         </div>
+
+        {/* Row 9 */}
+        <div className="flex flex-col lg:flex-row items-center gap-10 mt-16">
+          <div className="w-full lg:w-1/2 flex flex-col gap-4">
+            <h3 className="text-2xl sm:text-3xl font-semibold font-[Poppins]">
+              Search Engine Optimization (SEO)
+            </h3>
+
+            <p className="text-gray-700 text-sm sm:text-base">
+              Improve your online visibility and grow your business with powerful SEO
+              strategies. At Intellix Soft, we optimize websites through advanced SEO
+              techniques, data-driven insights, and performance improvements to increase
+              search rankings, attract organic traffic, and build long-term digital
+              growth.
+            </p>
+
+            <p className="text-sm sm:text-base">
+              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
+                Keyword Research & Strategy:
+              </span>{" "}
+              Identify high-value keywords and search trends to create effective SEO
+              strategies that target the right audience and improve website visibility.
+            </p>
+
+            <p className="text-sm sm:text-base">
+              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
+                On-Page SEO Optimization:
+              </span>{" "}
+              Optimize website content, meta tags, headings, images, and internal links
+              to improve search engine understanding and user experience.
+            </p>
+
+            <p className="text-sm sm:text-base">
+              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
+                Technical SEO:
+              </span>{" "}
+              Enhance website speed, mobile performance, indexing, security, and
+              technical structure to achieve better search engine rankings.
+            </p>
+
+            <p className="text-sm sm:text-base">
+              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
+                SEO Analytics & Growth:
+              </span>{" "}
+              Monitor rankings, analyze traffic data, and implement continuous
+              improvements to increase organic reach and achieve sustainable growth.
+            </p>
+
+            <a
+              href="/SearchEngineOptimization"
+              className="w-fit cursor-pointer py-3 px-6 rounded-md text-black bg-[#eed025] font-[Sora] font-semibold text-sm sm:text-base hover:text-white transition ease-in-out duration-300 hover:bg-[#56A49E]"
+            >
+              Learn More
+            </a>
+          </div>
+
+          <div className="w-full lg:w-1/2 flex justify-center">
+            <img
+              src={seo}
+              className="w-full max-w-lg rounded-lg object-cover shadow-lg"
+              alt="Search Engine Optimization"
+            />
+          </div>
+        </div>
+
+        {/* Row 10 */}
+        <div className="flex flex-col lg:flex-row items-center gap-10 mt-16">
+          <div className="w-full lg:w-1/2 flex flex-col gap-4">
+            <h3 className="text-2xl sm:text-3xl font-semibold font-[Poppins]">
+              Computer Applications & Office Solutions
+            </h3>
+
+            <p className="text-gray-700 text-sm sm:text-base">
+              Improve productivity with professional computer application solutions.
+              At Intellix Soft, we provide expert services in Microsoft Office tools
+              including MS Word, Excel, and PowerPoint to create professional documents,
+              advanced spreadsheets, and engaging presentations for business and
+              educational needs.
+            </p>
+
+            <p className="text-sm sm:text-base">
+              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
+                MS Word Documentation:
+              </span>{" "}
+              Create professional reports, proposals, resumes, and business documents
+              with proper formatting, layouts, tables, and advanced document features.
+            </p>
+
+            <p className="text-sm sm:text-base">
+              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
+                Microsoft Excel Solutions:
+              </span>{" "}
+              Develop advanced spreadsheets using formulas, functions, data analysis,
+              charts, and reports to organize and manage information efficiently.
+            </p>
+
+            <p className="text-sm sm:text-base">
+              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
+                PowerPoint Presentations:
+              </span>{" "}
+              Design professional and visually attractive presentations with modern
+              layouts, graphics, animations, and structured content.
+            </p>
+
+            <p className="text-sm sm:text-base">
+              <span className="text-lg font-medium bg-gradient-to-r from-[#145B55] to-[#56A49E] bg-clip-text text-transparent">
+                Office Automation & Support:
+              </span>{" "}
+              Provide efficient digital solutions, data management, and productivity
+              improvements to simplify daily tasks and business operations.
+            </p>
+
+            <a
+              href="/ComputerApplications"
+              className="w-fit cursor-pointer py-3 px-6 rounded-md text-black bg-[#eed025] font-[Sora] font-semibold text-sm sm:text-base hover:text-white transition ease-in-out duration-300 hover:bg-[#56A49E]"
+            >
+              Learn More
+            </a>
+          </div>
+
+          <div className="w-full lg:w-1/2 flex justify-center">
+            <img
+              src={computer}
+              className="w-full max-w-lg rounded-lg object-cover shadow-lg"
+              alt="Computer Applications"
+            />
+          </div>
+        </div>
+
       </section>
       <ProcessSection />
 
