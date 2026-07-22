@@ -201,8 +201,7 @@ const Navbar = () => {
               <button
                 type="button"
                 onClick={() => setMobileCoursesOpen(!mobileCoursesOpen)}
-                className={`${isScrolled ? "text-black" : "text-white"
-                  }`}
+                className={isScrolled ? "text-black" : "text-white"}
               >
                 <IoIosArrowDown
                   className={`transition-transform duration-300 ${mobileCoursesOpen ? "rotate-180" : ""
@@ -210,41 +209,97 @@ const Navbar = () => {
                 />
               </button>
             </div>
+
             {mobileCoursesOpen && (
-              <div className="mt-2 ml-3 flex flex-col gap-2">
-                <NavLink onClick={closeMenu} to="/courses/web-app-development" className={linkStyle}>
-                  Web App Development
+              <div className="mt-3 ml-3 flex flex-col gap-2">
+
+                <NavLink
+                  onClick={closeMenu}
+                  to="/courses/web-app-development"
+                  className={linkStyle}
+                >
+                  Website Development
                 </NavLink>
 
-                <NavLink onClick={closeMenu} to="/courses/mobile-app-development" className={linkStyle}>
-                  Mobile App Development
+                <NavLink
+                  onClick={closeMenu}
+                  to="/courses/Backend-Development-with-Python"
+                  className={linkStyle}
+                >
+                  Backend Web Development With Python
                 </NavLink>
 
-                <NavLink onClick={closeMenu} to="/courses/python-machine-learning" className={linkStyle}>
+                <NavLink
+                  onClick={closeMenu}
+                  to="/courses/python-machine-learning"
+                  className={linkStyle}
+                >
                   Python & Machine Learning
                 </NavLink>
 
-                <NavLink onClick={closeMenu} to="/courses/graphic-designer" className={linkStyle}>
-                  Graphic Designer
+                <NavLink
+                  onClick={closeMenu}
+                  to="/courses/Data-Automation"
+                  className={linkStyle}
+                >
+                  Data Science & Automation
                 </NavLink>
 
-                <NavLink onClick={closeMenu} to="/courses/digital-marketing" className={linkStyle}>
+                <NavLink
+                  onClick={closeMenu}
+                  to="/courses/digital-marketing"
+                  className={linkStyle}
+                >
                   Digital Marketing
                 </NavLink>
 
-                <NavLink onClick={closeMenu} to="/courses/business-development" className={linkStyle}>
+                <NavLink
+                  onClick={closeMenu}
+                  to="/courses/shopify"
+                  className={linkStyle}
+                >
+                  E-Commerce & Shopify
+                </NavLink>
+
+                <NavLink
+                  onClick={closeMenu}
+                  to="/courses/graphic-designer"
+                  className={linkStyle}
+                >
+                  Graphic Designer
+                </NavLink>
+
+                <NavLink
+                  onClick={closeMenu}
+                  to="/courses/business-development"
+                  className={linkStyle}
+                >
                   Business Development
                 </NavLink>
 
-                {/* ✅ FIXED THESE 2 */}
-                <NavLink onClick={closeMenu} to="/courses/Backend-Development-with-Python" className={linkStyle}>
-                  Backend Development with Python
+                <NavLink
+                  onClick={closeMenu}
+                  to="/courses/Youtube"
+                  className={linkStyle}
+                >
+                  YouTube Content Automation
                 </NavLink>
 
-                <NavLink onClick={closeMenu} to="/courses/Data-Science-and-Automation-with-Python" className={linkStyle}>
-                  Data Science and Automation with Python
+                <NavLink
+                  onClick={closeMenu}
+                  to="/courses/SEO"
+                  className={linkStyle}
+                >
+                  (SEO) Search Engine Optimization
                 </NavLink>
 
+                <NavLink
+                  onClick={closeMenu}
+                  to="/courses/Computer"
+                  className={linkStyle}
+                >
+                  Computer Applications
+                </NavLink>
               </div>
             )}
           </div>
